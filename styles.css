@@ -15,20 +15,13 @@ h1{
     text-align: center;
 }
 
+p{
+    text-align: center;
+}
+
 ul{
     list-style-type: none;
     padding: 5px;   
-}
-
-.navigation-menu {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.push{
-    margin-left: auto;
 }
 
 main{
@@ -39,4 +32,25 @@ main{
 
 footer{
     background-color: blue;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: black;
+    box-shadow: 0 5px darkgray;
+    transform: translateY(4px);
 }
