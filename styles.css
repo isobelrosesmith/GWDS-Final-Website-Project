@@ -24,6 +24,7 @@ ul{
     padding: 5px;   
 }
 
+
 main{
     background-color: darkgray;
 }
@@ -32,6 +33,7 @@ footer{
     background-color: lightgrey;
 }
 
+/* buttons */
 button{
     border: 1px solid black;
     border-radius: 5px;
@@ -44,7 +46,6 @@ button{
 
 button:hover{
     background-color: black;
-    color: white;
 }
 
 button:active{
@@ -52,3 +53,4 @@ button:active{
     box-shadow: 0 5px darkgray;
     transform: translateY(4px);
 }
+
