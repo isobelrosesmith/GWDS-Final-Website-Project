@@ -1,7 +1,7 @@
 /* global styles */
 
 body{
-    background-color: black;
+    background-color: darkgray;
 }
 
 header{
@@ -28,10 +28,8 @@ main{
     background-color: darkgray;
 }
 
-
-
 footer{
-    background-color: blue;
+    background-color: lightgrey;
 }
 
 button{
