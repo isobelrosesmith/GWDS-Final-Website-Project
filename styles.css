@@ -1,11 +1,11 @@
 /* global styles */
 
 body{
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 header{
-    background-color: darkgray;
+    background-color: lightgray;
     padding: 10px 0px 10px 0px;
 }
 
@@ -26,7 +26,7 @@ ul{
 
 
 main{
-    background-color: darkgray;
+    background-color: lightslategray;
 }
 
 footer{
@@ -54,3 +54,26 @@ button:active{
     transform: translateY(4px);
 }
 
+.carp1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carp2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carp3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Typo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
